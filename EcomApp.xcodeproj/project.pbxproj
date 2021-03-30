@@ -13,6 +13,7 @@
 		14843E55261299FA0002C94C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14843E54261299FA0002C94C /* Preview Assets.xcassets */; };
 		14843E60261299FA0002C94C /* EcomAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14843E5F261299FA0002C94C /* EcomAppTests.swift */; };
 		14843E6B261299FA0002C94C /* EcomAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14843E6A261299FA0002C94C /* EcomAppUITests.swift */; };
+		14F9465A2612CF70005D6AE6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F946592612CF70005D6AE6 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		14843E66261299FA0002C94C /* EcomAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14843E6A261299FA0002C94C /* EcomAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomAppUITests.swift; sourceTree = "<group>"; };
 		14843E6C261299FA0002C94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F946592612CF70005D6AE6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,8 @@
 		14843E4C261299F90002C94C /* EcomApp */ = {
 			isa = PBXGroup;
 			children = (
+				14F9464D2612CEA9005D6AE6 /* Model */,
+				14F9464C2612CE99005D6AE6 /* View */,
 				14843E4D261299F90002C94C /* EcomAppApp.swift */,
 				14843E4F261299F90002C94C /* ContentView.swift */,
 				14843E51261299FA0002C94C /* Assets.xcassets */,
@@ -128,6 +132,21 @@
 				14843E6C261299FA0002C94C /* Info.plist */,
 			);
 			path = EcomAppUITests;
+			sourceTree = "<group>";
+		};
+		14F9464C2612CE99005D6AE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14F946592612CF70005D6AE6 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14F9464D2612CEA9005D6AE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14843E50261299F90002C94C /* ContentView.swift in Sources */,
+				14F9465A2612CF70005D6AE6 /* Home.swift in Sources */,
 				14843E4E261299F90002C94C /* EcomAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
