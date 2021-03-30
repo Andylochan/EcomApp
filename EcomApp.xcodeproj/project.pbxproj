@@ -14,6 +14,7 @@
 		14843E60261299FA0002C94C /* EcomAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14843E5F261299FA0002C94C /* EcomAppTests.swift */; };
 		14843E6B261299FA0002C94C /* EcomAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14843E6A261299FA0002C94C /* EcomAppUITests.swift */; };
 		14F9465A2612CF70005D6AE6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F946592612CF70005D6AE6 /* Home.swift */; };
+		14F9465F2612E212005D6AE6 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F9465E2612E212005D6AE6 /* TabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		14843E6A261299FA0002C94C /* EcomAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomAppUITests.swift; sourceTree = "<group>"; };
 		14843E6C261299FA0002C94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14F946592612CF70005D6AE6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		14F9465E2612E212005D6AE6 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				14F946592612CF70005D6AE6 /* Home.swift */,
+				14F9465E2612E212005D6AE6 /* TabButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14843E50261299F90002C94C /* ContentView.swift in Sources */,
+				14F9465F2612E212005D6AE6 /* TabButton.swift in Sources */,
 				14F9465A2612CF70005D6AE6 /* Home.swift in Sources */,
 				14843E4E261299F90002C94C /* EcomAppApp.swift in Sources */,
 			);

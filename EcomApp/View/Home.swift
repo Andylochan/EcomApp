@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct Home: View {
+    @State var selected = tabs[0]
+    @Namespace var animation
+    
     var body: some View {
         
         VStack {
@@ -50,7 +53,17 @@ struct Home: View {
                         
                         Spacer(minLength: 0)
                     }
-
+                    
+                    HStack(spacing: 0){
+                        ForEach(tabs, id: \.self) { tab in
+                            // Tab Button
+                            TabButton(title: tab, selected: $selected, animation: animation)
+                            
+                            // Even Spacing
+                            if tabs.last != tab { Spacer(minLength: 0) }
+                        }
+                    }
+                    .padding()
                 }
             }
             
@@ -60,9 +73,8 @@ struct Home: View {
     }
 }
 
-// MARK:-  Tabs
-
-
+// Tabs
+var tabs = ["BMW", "Honda", "Toyota", "Telsa"]
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
