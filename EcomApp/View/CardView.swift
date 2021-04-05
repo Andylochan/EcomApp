@@ -31,6 +31,7 @@ struct CardView: View {
             Image(item.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
+                .matchedGeometryEffect(id: "image\(item.id)", in: animation)
                 .frame(height: 120)
                 .padding(.top, 30)
                 .padding(.bottom, 10)
@@ -44,6 +45,7 @@ struct CardView: View {
                 .font(.caption)
                 .foregroundColor(.gray)
             
+            // Using Matched Geometry Effect for Hero Animation...
             HStack {
                 
                 Button(action: {}) {
@@ -52,17 +54,22 @@ struct CardView: View {
                         .font(.title2)
                         .foregroundColor(.black)
                 }
+                .matchedGeometryEffect(id: "heart\(item.id)", in: animation)
                 
                 Spacer(minLength: 0)
                 
                 Text(item.rating)
                     .fontWeight(.heavy)
                     .foregroundColor(.black)
+                    .matchedGeometryEffect(id: "rating\(item.id)", in: animation)
             }
             .padding()
         }
-
-        .background(Color(item.image)) 
+        // Giving hero effect for color also...
+        .background(
+            Color(item.image)
+                .matchedGeometryEffect(id: "color\(item.id)", in: animation)
+        )
         .cornerRadius(15)
     }
 }

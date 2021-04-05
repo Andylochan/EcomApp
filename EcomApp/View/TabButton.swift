@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct TabButton: View {
-    var title: String
     @Binding var selected: String
-    
+    var title: String
     var animation: Namespace.ID
     
     var body: some View {
