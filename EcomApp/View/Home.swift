@@ -54,13 +54,25 @@ struct Home: View {
                         Spacer(minLength: 0)
                     }
                     
-                    HStack(spacing: 0){
+                    HStack(spacing: 0) {
+                        
                         ForEach(tabs, id: \.self) { tab in
                             // Tab Button
                             TabButton(title: tab, selected: $selected, animation: animation)
                             
                             // Even Spacing
                             if tabs.last != tab { Spacer(minLength: 0) }
+                        }
+                    }
+                    .padding()
+                    .padding(.top, 5)
+                    
+                    LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 20), count: 2), spacing: 25) {
+                        
+                        ForEach(items) { item in
+                            
+                            // Card View
+                            CardView(item: item, animation: animation)
                         }
                     }
                     .padding()

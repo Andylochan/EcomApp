@@ -13,6 +13,8 @@
 		14843E55261299FA0002C94C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14843E54261299FA0002C94C /* Preview Assets.xcassets */; };
 		14843E60261299FA0002C94C /* EcomAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14843E5F261299FA0002C94C /* EcomAppTests.swift */; };
 		14843E6B261299FA0002C94C /* EcomAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14843E6A261299FA0002C94C /* EcomAppUITests.swift */; };
+		148B85ED261AA11600BC9F71 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B85EC261AA11600BC9F71 /* Item.swift */; };
+		148B85FA261AA5C700BC9F71 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B85F9261AA5C700BC9F71 /* CardView.swift */; };
 		14F9465A2612CF70005D6AE6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F946592612CF70005D6AE6 /* Home.swift */; };
 		14F9465F2612E212005D6AE6 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F9465E2612E212005D6AE6 /* TabButton.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +49,8 @@
 		14843E66261299FA0002C94C /* EcomAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14843E6A261299FA0002C94C /* EcomAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomAppUITests.swift; sourceTree = "<group>"; };
 		14843E6C261299FA0002C94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148B85EC261AA11600BC9F71 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		148B85F9261AA5C700BC9F71 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		14F946592612CF70005D6AE6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		14F9465E2612E212005D6AE6 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +145,7 @@
 			children = (
 				14F946592612CF70005D6AE6 /* Home.swift */,
 				14F9465E2612E212005D6AE6 /* TabButton.swift */,
+				148B85F9261AA5C700BC9F71 /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 		14F9464D2612CEA9005D6AE6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				148B85EC261AA11600BC9F71 /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -281,9 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148B85ED261AA11600BC9F71 /* Item.swift in Sources */,
 				14843E50261299F90002C94C /* ContentView.swift in Sources */,
 				14F9465F2612E212005D6AE6 /* TabButton.swift in Sources */,
 				14F9465A2612CF70005D6AE6 /* Home.swift in Sources */,
+				148B85FA261AA5C700BC9F71 /* CardView.swift in Sources */,
 				14843E4E261299F90002C94C /* EcomAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
