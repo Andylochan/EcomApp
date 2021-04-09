@@ -44,7 +44,7 @@ struct Detail: View {
             }
             .padding()
             
-            VStack {
+            VStack(spacing: 10) {
                 
                 Image(selectedItem.image)
                     .resizable()
@@ -82,13 +82,16 @@ struct Detail: View {
                 }
                 .padding()
             }
-            .padding()
+            .padding(.top, 35)
             .background(
                 Color(selectedItem.image)
+                    .clipShape(CustomShape())
                     .matchedGeometryEffect(id: "color\(selectedItem.id)", in: animation)
             )
             .cornerRadius(15)
             .padding()
+            
+            // delay 
             
             Spacer()
         }

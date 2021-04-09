@@ -16,6 +16,7 @@
 		148B85ED261AA11600BC9F71 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B85EC261AA11600BC9F71 /* Item.swift */; };
 		148B85FA261AA5C700BC9F71 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B85F9261AA5C700BC9F71 /* CardView.swift */; };
 		148B85FF261AB1E800BC9F71 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B85FE261AB1E800BC9F71 /* Detail.swift */; };
+		148B8604261BC10D00BC9F71 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B8603261BC10D00BC9F71 /* CustomShape.swift */; };
 		14F9465A2612CF70005D6AE6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F946592612CF70005D6AE6 /* Home.swift */; };
 		14F9465F2612E212005D6AE6 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F9465E2612E212005D6AE6 /* TabButton.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		148B85EC261AA11600BC9F71 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		148B85F9261AA5C700BC9F71 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		148B85FE261AB1E800BC9F71 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		148B8603261BC10D00BC9F71 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		14F946592612CF70005D6AE6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		14F9465E2612E212005D6AE6 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +151,7 @@
 				14F9465E2612E212005D6AE6 /* TabButton.swift */,
 				148B85F9261AA5C700BC9F71 /* CardView.swift */,
 				148B85FE261AB1E800BC9F71 /* Detail.swift */,
+				148B8603261BC10D00BC9F71 /* CustomShape.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148B8604261BC10D00BC9F71 /* CustomShape.swift in Sources */,
 				148B85ED261AA11600BC9F71 /* Item.swift in Sources */,
 				148B85FF261AB1E800BC9F71 /* Detail.swift in Sources */,
 				14843E50261299F90002C94C /* ContentView.swift in Sources */,
